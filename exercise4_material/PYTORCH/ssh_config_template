@@ -1,0 +1,42 @@
+# CIP Machines at University of Erlangen-Nuremberg
+# Copy this to ~/.ssh/config (C:\Users\Varun\.ssh\config)
+
+# Always-on machines with potential GPU access
+Host cip4a
+    HostName cip4a.cip.cs.fau.de
+    User your-username-here
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+
+Host cip4b
+    HostName cip4b.cip.cs.fau.de
+    User your-username-here
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+
+# Terminal servers (always online)
+Host cipterm0
+    HostName cipterm0.cip.cs.fau.de
+    User your-username-here
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+
+# Other always-on machines  
+Host cip2a7
+    HostName cip2a7.cip.cs.fau.de
+    User your-username-here
+    Port 443
+    IdentityFile ~/.ssh/id_ed25519
+
+Host cip1e6
+    HostName cip1e6.cip.cs.fau.de
+    User your-username-here
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+
+# Generic CIP connection
+Host cip
+    HostName cip1e6.cip.cs.fau.de
+    User your-username-here
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
