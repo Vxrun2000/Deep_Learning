@@ -17,5 +17,5 @@ Convolutional neural networks
         ↓
 Regularization + RNN + LSTM
         ↓
-PyTorch training workflows
+PyTorch  workflow
 ```
